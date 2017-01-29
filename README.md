@@ -5,4 +5,4 @@
 
 <p align="right">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Toyota_Land_Cruiser_V8_front.JPG/300px-Toyota_Land_Cruiser_V8_front.JPG">
-</p></p>
+</p>
