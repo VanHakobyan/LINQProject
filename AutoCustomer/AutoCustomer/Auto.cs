@@ -35,7 +35,7 @@ namespace AutoCustomer
 
         public override string ToString()
         {
-            return $"Car: {Car} Model: {model} Color: {color} Year: {year} Motor: {motor} AutomaticTransmission: {isAutomaticTransmission}";
+            return $"Car: {Car} , Model: {model} , Color: {color} , Year: {year} ,  Motor: {motor} , AutomaticTransmission: {isAutomaticTransmission}";
         }
     }
 }

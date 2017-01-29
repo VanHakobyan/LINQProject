@@ -28,7 +28,7 @@ namespace AutoCustomer
 
         public override string ToString()
         {
-            return $"Name Customer: {nameCustomer} Model:{model} phone number: {phoneNumber}";
+            return $"Name Customer: {nameCustomer},   Model:{model},   phone number: {phoneNumber}";
         }
 
     }

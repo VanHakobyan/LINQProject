@@ -14,11 +14,10 @@ namespace AutoCustomer
 
             List<Auto> catalogAuto = new List<Auto>
             {
-                new Auto("Mersedes, ","C, ","Black, ",2000,2.2f,false),
-                new Auto("Mersedes, ","E, ","Blue, ",2006,3.2f,false),
-                new Auto("Infiniti, ","FX35, ","Black, ",2006,3.5f,true),
-                new Auto("BMW, ","X5, ","Red, ",2004,4.4f,true),
-                new Auto("Toyota, ","Land Cruiser, ","White, ",2008,4.7f,true)
+                new Auto("Mersedes","E","Blue",2006,3.2f,false),
+                new Auto("Infiniti","FX35","Black",2006,3.5f,true),
+                new Auto("BMW","X5","Red",2004,4.4f,true),
+                new Auto("Toyota","Land Cruiser","White",2008,4.7f,true)
             };
             foreach (var auto in catalogAuto)
             {
@@ -34,7 +33,7 @@ namespace AutoCustomer
             List<Customer> listCustomer = new List<Customer>
             {
                 new Customer("Zaruhi Postanjyan","Mersedes","055105510"),
-                new Customer("Arshak Sadoyan","Mersedes","093101010"),
+                new Customer("Arshak Sadoyan","Vaz 21 06","093101010"),
                 new Customer("Karen Karapetyan","BMW","077777777"),
                 new Customer("Galust Sahakyan","Toyota","041765149")
 
@@ -72,13 +71,13 @@ namespace AutoCustomer
                                   Color = auto.Color,
                                   Marka = auto.Model,
                                   Year = auto.Year,
-                                  Motor=auto.Motor,
+                                  Motor = auto.Motor,
                                   Autmaticly = auto.IsAutomaticTransmission,
                               };
 
             foreach (var item in querySecond)
             {
-                Console.WriteLine($"{item.NameCustomer}{item.Phone}{item.Model}{item.Color}{item.Marka}{item.Year}{item.Motor}{item.Autmaticly}");
+                Console.WriteLine($"{item.NameCustomer}  {item.Phone}  {item.Model}  {item.Color}  {item.Marka}  {item.Year}  {item.Motor}  {item.Autmaticly}");
             }
         }
     }
