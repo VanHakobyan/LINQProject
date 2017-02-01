@@ -35,7 +35,8 @@ namespace AutoCustomer
                 new Customer("Zaruhi Postanjyan","Mersedes","055105510"),
                 new Customer("Arshak Sadoyan","Vaz 21 06","093101010"),
                 new Customer("Karen Karapetyan","BMW","077777777"),
-                new Customer("Galust Sahakyan","Toyota","041765149")
+                new Customer("Galust Sahakyan","Toyota","041765149"),
+                new Customer("Raffi Hovhannisyan","not faund","055555555")
 
             };
 
